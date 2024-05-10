@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <script type="text/javascript" src="../script/upload.js"></script>
+    <link rel="stylesheet" href="../style/main.css">
+
+    <title>요리 음식: 업로드</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tab-content overflow-y-auto" id="pills-tabContent">
+            <div class="tab-pane show active" id="pills-report" role="tabpanel" aria-labelledby="pills-report-tab">
+
+                <form id="recipe-form" action="javascript:write();" method="post">
+                    <div class="section section-image mb-3">
+                        <!-- 이미지 올리는 곳 -->
+                        <label for="file-upload" class="upload-button">
+                            <div class="image-preview">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="64px" viewBox="0 0 24 24" width="64px"
+                                    fill="#000000">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M21 6h-3.17L16 4h-6v2h5.12l1.83 2H21v12H5v-9H3v9c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zM8 14c0 2.76 2.24 5 5 5s5-2.24 5-5-2.24-5-5-5-5 2.24-5 5zm5-3c1.65 0 3 1.35 3 3s-1.35 3-3 3-3-1.35-3-3 1.35-3 3-3zM5 6h3V4H5V1H3v3H0v2h3v3h2z" />
+                                </svg>
+                                <img id="image-preview" src="#" alt="Uploaded Image" style="display: none;">
+                            </div>
+                            <input id="file-upload" type="file" accept="image/*" style="display: none;">
+                        </label>
+
+                        <script>
+                            document.getElementById('file-upload').addEventListener('change', function (event) {
+                                var reader = new FileReader();
+
+                                reader.onload = function () {
+                                    var imagePreview = document.getElementById('image-preview');
+                                    var svgIcon = document.querySelector('.image-preview svg');
+
+                                    imagePreview.src = reader.result;
+                                    imagePreview.style.display = 'block';
+                                    imagePreview.style.width = '64px';
+                                    imagePreview.style.height = 'auto';
+                                    svgIcon.style.display = 'none';
+                                }
+
+                                reader.readAsDataURL(event.target.files[0]);
+                            });
+                        </script>
+
+                    </div>
+                    <div class="section section-content mb-3 eheeeheeeheee">
+                        <!-- 메모 공간 -->
+                        <input id="title" class="form-control" type="text" placeholder="제목">
+                        <input id="food-name" class="form-control" type="text" placeholder="음식 이름">
+                        <textarea id="recipe" class="form-control" rows="6" placeholder="레시피 입력하기"></textarea>
+                        <textarea id="ingredients" class="form-control" rows="2" placeholder="필요한 재료 입력하기"></textarea>
+                    </div>
+                    <div class="section d-grid">
+                        <button id="report-button" type="submit" class="btn btn-primary btn-block">등록</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <ul class="nav nav-pills tabs" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a href="#" class="nav-link active" id="pills-report-tab">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px"
+                        fill="#ffffff">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M21 6h-3.17L16 4h-6v2h5.12l1.83 2H21v12H5v-9H3v9c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zM8 14c0 2.76 2.24 5 5 5s5-2.24 5-5-2.24-5-5-5-5 2.24-5 5zm5-3c1.65 0 3 1.35 3 3s-1.35 3-3 3-3-1.35-3-3 1.35-3 3-3zM5 6h3V4H5V1H3v3H0v2h3v3h2z" />
+                    </svg>
+                    업로드
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="../index.php" class="nav-link" id="pills-articles-tab">
+                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="48px"
+                        viewBox="0 0 24 24" width="48px" fill="#000000">
+                        <g>
+                            <rect fill="none" height="24" width="24" />
+                            <g>
+                                <path
+                                    d="M19,5v14H5V5H19 M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3L19,3z" />
+                            </g>
+                            <path d="M14,17H7v-2h7V17z M17,13H7v-2h10V13z M17,9H7V7h10V9z" />
+                        </g>
+                    </svg>
+                    피드
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="./myInfo.php" class="nav-link" id="pills-news-tab">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px"
+                        fill="#000000">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM7 10h2v7H7zm4-3h2v10h-2zm4 6h2v4h-2z" />
+                    </svg>
+                    내정보
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="../script/upload.js"></script>
+</body>
+
+</html>

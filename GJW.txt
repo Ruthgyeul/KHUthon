@@ -1,0 +1,129 @@
+https://www.kaggle.com/datasets/tapakah68/outdoor-trash-cans-and-dumpsters
+
+https://gts.ai/dataset-download/domestic-trash-garbage-dataset-ai-data-collection/
+
+https://data.mendeley.com/datasets/n3gtgm9jxj/3
+
+https://universe.roboflow.com/dsoelma/garbage-clixe
+
+https://data.opendata.am/dataset/dcwb0039597
+
+https://universe.roboflow.com/studio-boson/trash-mega
+
+https://paperswithcode.com/dataset/drinking-waste-classification
+
+https://paperswithcode.com/dataset/trashcan
+
+https://www.kaggle.com/datasets/maximbassein/municipal-soild-waste-dataset
+
+https://paperswithcode.com/dataset/drinking-waste-classification
+
+https://universe.roboflow.com/garbage-detection-czeg5/garbage_detection-wvzwv
+
+https://datasetninja.com/trash-can
+
+https://hub.arcgis.com/maps/COHBG::public-trash-cans/about
+
+https://universe.roboflow.com/kubraaksoy2187-gmail-com/garbage-s20aa
+
+https://universe.roboflow.com/trash-annotations/trash-detection-kcsnu/model/4
+
+https://universe.roboflow.com/thesis-ejjcj/waste-hsysm
+
+https://www.kaggle.com/datasets/fedorgrab/garbage
+
+https://universe.roboflow.com/taco-t7kkz/taco-dataset-ql1ng
+
+https://universe.roboflow.com/mda522/trashied
+
+
+
+
+
+
+==========================================
+쓰레기통 위치 데이터
+
+https://www.data.go.kr/tcs/dss/selectDataSetList.do?keyword=%EC%93%B0%EB%A0%88%EA%B8%B0%ED%86%B5+%EC%9C%84%EC%B9%98&brm=&svcType=&instt=&recmSe=N&conditionType=init&extsn=&kwrdArray=
+>>>>>경도위도x
+
+
+https://www.data.go.kr/data/15108027/fileData.do
+
+https://www.data.go.kr/data/15108109/fileData.do
+
+https://www.data.go.kr/data/15114011/fileData.do
+
+https://www.data.go.kr/data/15041694/fileData.do
+
+https://www.data.go.kr/data/15041640/fileData.do
+
+https://www.data.go.kr/data/15108027/fileData.do
+
+https://www.data.go.kr/data/15087773/fileData.do
+
+https://www.data.go.kr/data/15127543/fileData.do
+
+https://www.data.go.kr/data/15087103/fileData.do
+
+
+
+==========================================================================
+환경 미화원이 늘어나고 있다는 뉴스
+https://www.hankyung.com/article/202004214405i
+
+
+
+ 쓰리기통 확충 뉴스
+
+https://munhwa.com/news/view.html?no=2024040101071227307001 
+
+
+https://mediahub.seoul.go.kr/archives/2010822 
+
+
+=========================================================================
+
+
+
+
+권혜원
+
+
+149207.토마토 스파게티  https://cdn.pixabay.com/photo/2024/04/28/09/42/ai-generated-8725190_1280.png
+
+374775.브라우니 https://cdn.pixabay.com/photo/2024/01/30/13/15/ai-generated-8541996_640.jpg
+
+400622. 계란빵 https://t3.ftcdn.net/jpg/03/95/50/64/240_F_395506426_z0VSUK2Kc5IU7OWbK39qmR8l9DL8TKSI.jpg
+
+405760. 초코칩 머핀  https://cdn.pixabay.com/photo/2023/07/20/11/00/muffin-8139065_640.jpg
+
+420112.볶음밥 https://t4.ftcdn.net/jpg/02/97/56/65/240_F_297566516_1rljvHYUgJhKJkyhUz9WLIuQgeahOtGF.jpg
+
+521359. 잡채 https://t4.ftcdn.net/jpg/07/14/81/89/240_F_714818920_8o6hWUJASCYJTWzxrO8nYam5AJAAyHMV.jpg
+
+526063 동태전 https://t3.ftcdn.net/jpg/04/80/11/82/240_F_480118258_yPLSny6ZmLKBeqfxhd4Y8LT74E6lNF0z.jpg
+
+548674 새우버거 https://t3.ftcdn.net/jpg/04/34/49/92/240_F_434499229_qFl30VZvATiOOqdgdhHiAWXSOXhia6xG.jpg
+
+556473 순두부찌게 https://t3.ftcdn.net/jpg/07/55/81/84/240_F_755818411_tp1Xa26QGrYlC74aBgBBChRjH89O89P3.jpg
+
+
+
+장지원
+
+6941845.맛살계란말이 https://i.namu.wiki/i/JiaoexAFCWDJ7YZyfGycHsoh00oNlCfSi2wJZc-Jsv3tZ-FElF4Z4FWfHxjDkWq0s6Ryd-VIVRuH8TX7HFPYM02nvJT-uhE9JuscIPGinuecKx9IgpOxI0pFHRTjitf61oYnUyfMMgid41lPlb86qg.webp
+
+7014331. 소세지볶음 https://i.namu.wiki/i/kSiaeDWsAkzaYOB4tDqmOKgnWMTeBlb2XR3L2P74kNfSIym7-pjJTcplgqkk61x56IH7XcKn4ikA_mIwD0ajpg.webp
+
+6941910.볶음밥 https://i.namu.wiki/i/H-SlshgOiqg6IJQzqpouXvlCTuD3C65h5xoQqtBmvlK2hFirS0GRXvCs-sC2xpW8Mk54BUTjdJOpednzHIzAAdPyshIGBIl-ifILjIHgWiJuDN1BQWtbihL4RVQEIiwgeWqCVbfSOV0Mk5mwfwQlvw.webp
+
+6941759. 오무라이스  https://i.namu.wiki/i/jYv7QYada4eWUaXs8nUM9E8VMkHcY4p-1rpsKxrs8Vb33Ms43KcCyCjYQRAy-UJASUFJ4XhbiQhacMwdCY3M75YPBI_sXChf9xAABY7HL-fzkqGxJGn79npkc3ASNdtXHDqFLYXNnz4FLFYmGcoSHQ.webp
+
+6941773. 야채 비빔밥 https://i.namu.wiki/i/OXpZPPh_PFYXpANsDxmJ3-JOpRN2DOU7ya1GUFVHt8IIfj3nwoqoAP4Lo602Ddu6h-Byvv-beAbUmP7CBY-0YeG5Bh1bAQjk1nq33d4FRL2wq9iK5xLflIchs-DLnFU3lf78j0-IoT3TCsFZOgVm0Q.jpg
+
+6941565. 토마토 카레 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStIuJ8A5JVEw3d6x7PwS_sZVmyhrI06JjTqesW7XUkbg&s
+ 
+
+
+

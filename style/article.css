@@ -1,0 +1,259 @@
+.wrap{
+    width:935px;
+    margin:0 auto;
+}
+
+.round_img{
+    border-radius:50%;
+}
+
+.txt_id{
+    font-weight:bold;
+    color:#262626;
+}
+a{
+    text-decoration-line:none;
+}
+
+/**************************
+HEADER
+**************************/
+header{
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+header .wrap{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 15px 0;
+}
+
+header a.logo{
+    text-decoration-line: none;
+    color: #3CB371;
+    height: 20px;
+}
+header .logo h1{
+    height:100%;
+    margin-left:35px;
+    padding-left:15px;
+    border-left:1px solid #262626;
+    font-size:25px;
+    line-height:15px;
+    font-weight:bold;
+}
+
+.search{
+    display: flex;
+    flex: 3.5;
+    padding: 0 5px;
+    margin: 0 15%;
+    background: #fafafa;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+}
+
+.search input[type=text]{
+    position: relative;
+    flex: 9;
+    height: 25px;
+    background: none;
+    border: none;
+}
+
+.search button{
+    flex: 1.0;
+    color: #6e6e6e;
+    background-color: #b4b4b4;
+    border: none;
+    outline: none;
+}
+
+.search button img{
+    width: 20px;
+    height: 20px;
+    object-fit: fill;
+    margin: auto;
+}
+
+.search button> .fas {
+    position: relative;
+}
+
+/**************************
+MAIN LAYOUT
+**************************/
+main.wrap{
+    display: flex;
+    flex-direction: row-reverse; 
+    padding: 80px 0 100px;
+}
+
+
+/**************************
+FEED BOARD
+**************************/
+div.feed_board{
+    flex: 6.5;
+    margin-right: 15px;
+}
+
+/* FEED - common */
+.feed{
+    background: #fff;
+    border: 1px solid #e8e8e8;
+}
+
+/* FEED - top */
+.new_poster{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.food_name a{
+    text-decoration-line: none;
+    color:#212121;
+    font-size:30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* FEED - content */
+.feed_imgs img,
+.feed_imgs video{
+    width: 50%;
+    height: 50%;
+}
+
+.interactions{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+}
+
+.interactions button{
+    margin: 0 10px;
+    background-color:transparent;
+    border: none;
+    height: 50px;
+    width: 70px;
+}
+
+.interactions .my_emotion{
+}
+
+.interactions button.bookmark{
+    flex: 1;
+}
+
+.pagnation{
+    flex:25;
+}
+
+.like_user img{
+    width: 25px;
+    height: 25px;
+}
+
+.feed_imgs p{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.feed_imgs p .like_user{
+    display: flex;
+    align-items: center;
+}
+
+.feed_imgs p .txt_id{
+    margin-left: 10px;
+}
+
+/* FEED - feed text */
+.feed_txt{
+    padding: 0 20px;
+}
+
+.feed_txt .txt_id{
+    margin-right: 5px;
+}
+
+.feed_txt .more{
+    color: #999;
+}
+
+/*comments*/
+.comments{
+    padding: 10px 20px;
+}
+
+.list_comment{
+    margin-bottom: 10px;
+}
+
+.txt_comment{
+    display:flex;
+    margin-bottom: 5px;
+}
+
+.txt_comment > span{
+    flex:9.8;
+}
+
+.txt_comment > span .txt_id{
+    margin-right: 10px;
+}
+
+.txt_comment > span span{
+    width: 100%;
+}
+
+.txt_comment button{
+    font-weight:bold;
+    border-radius: 5px;
+    background-color: #3CB371;
+    border: none;
+    flex: 0.2;
+    color: #ffffff;
+}
+
+.txt_comment button:hover{
+    color: #777;
+}
+
+.post_comment{
+    display: flex;
+    align-content: center;
+    padding: 20px 0 10px;
+    border-top: 1px solid #e8e8e8;
+}
+
+.post_comment textarea{
+    flex: 9;
+    height: 30px;
+    border: none;
+    resize: none;
+}
+
+.post_comment textarea::-webkit-scrollbar{
+    width: 0;
+}
+
+.post_comment button{
+    flex: 1;
+    background-color: #3CB371;
+    border: none;
+    color: #ffffff;
+    font-weight:bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.post_comment button:hover{
+    color: #777;
+}

@@ -1,0 +1,255 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html, body {
+    height: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+    overflow: hidden;
+}
+
+body > .container {
+    position: relative;
+    padding: 0
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.tabs {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #a9a9a9;
+    background-color: #ffffff;
+}
+
+.tabs .nav-item {
+    width: 33.3333333333%;
+    text-align: center;
+}
+
+.tabs .nav-item .nav-link {
+    width: 100%;
+    text-align: center;
+    color: #212529;
+    border-radius: 0;
+}
+
+.tabs .nav-item .nav-link.active {
+    color: white;
+}
+
+.tabs .nav-item .nav-link img {
+    width: 24px;
+    display: block;
+    margin: 0 auto;
+}
+
+.tabs .nav-item .nav-link img.white {
+    display: none;
+}
+
+.tabs .nav-item .nav-link.active img.white {
+    display: block;
+}
+
+.tabs .nav-item .nav-link.active img.black {
+    display: none;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+}
+
+.container .tab-content {
+    height: calc(100% - 65px);
+}
+
+.container .tab-content .tab-pane {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+.eheeeheeeheee {
+    display: ruby-text;
+}
+
+#pills-report .label {
+    font-weight: 700;
+}
+
+#pills-report textarea {
+    border: 1 !important;
+    resize: none;
+}
+
+#pills-report textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.section {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.section-image {
+    padding: 1.5rem;
+}
+
+.upload-button {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.upload-button img {
+    margin-top: 10px;
+    width: 24px;
+    opacity: 0.6;
+}
+
+.upload-button .count {
+    font-size: 12px;
+}
+
+.section-location .location {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #a9a9a9;
+}
+
+#pills-news .row {
+    position: relative;
+    padding: 8px 16px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+#pills-news .row a {
+    color: #212529;
+    text-decoration: none;
+}
+
+#pills-news .row .thumbnail img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border: 1px solid #a9a9a9;
+    border-radius: 8px;
+}
+
+#pills-news .row .created-at {
+    position: absolute;
+    width: calc(100% - 120px);
+    bottom: 6px;
+    right: 18px;
+    font-size: 13px;
+    color: #a9a9a9;
+}
+
+#pills-news .row .title {
+    position: absolute;
+    width: calc(100% - 120px);
+    top: 6px;
+    right: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+#pills-articles .row {
+    position: relative;
+    padding: 8px 16px;
+}
+
+#pills-articles .like .button {
+    display: inline-block;
+}
+
+#pills-articles .like .button .none,
+#pills-articles .like .button.active .like {
+    display: block;
+}
+
+#pills-articles .like .button .like,
+#pills-articles .like .button.active .none {
+    display: none;
+}
+
+#pills-articles .like .button img {
+    width: 36px;
+}
+
+#pills-articles .info > div { 
+    display: inline-block;
+    margin-right: 4px;
+}
+
+#pills-articles .info .status1 {
+    color: #ff3838;
+}
+
+#pills-articles .info .status2 {
+    color: #ffb302;
+}
+
+#pills-articles .info .status3 {
+    color: #56f000;
+}
+
+#pills-articles .row .thumbnail {
+    display: inline;
+}
+
+#pills-articles .row .thumbnail-before {
+    margin-right: -4px;
+}
+
+#pills-articles .row .thumbnail img {
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid #a9a9a9;
+    border-radius: 8px;
+}
+
+#pills-articles .row .created-at {
+    font-size: 13px;
+    color: #a9a9a9;
+}
+
+#report-button{
+    background-color: #3CB371;
+    border-color: #3CB371
+}
+
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #3CB371;
+}
+
